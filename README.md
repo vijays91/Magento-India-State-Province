@@ -1,4 +1,4 @@
-# Magento-India-State-Province
+# Magento India State Province
 
 Used this module to add the India states to the Indian country.
 
