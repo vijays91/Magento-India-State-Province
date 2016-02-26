@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <Learn_IndiaStateProvince>
+            <version>1.0.0</version>
+        </Learn_IndiaStateProvince>
+    </modules>
+    
+    <global>
+        <resources>
+            <indiastateprovince_setup>
+                <setup>
+                    <module>Learn_IndiaStateProvince</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </indiastateprovince_setup>
+            <indiastateprovince_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </indiastateprovince_write>
+            <indiastateprovince_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </indiastateprovince_read>
+        </resources>
+        
+        <!-- Helper -->
+        <helpers>
+            <indiastateprovince>
+                <class>Learn_IndiaStateProvince_Helper</class>
+            </indiastateprovince>
+        </helpers>
+    </global>
+</config>
